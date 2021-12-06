@@ -18,7 +18,7 @@ public class Main {
 
 
         DAOwork dao = new DAOwork();
-        System.out.println(dao.connection(url,user,pass));
+        System.out.println(dao.connect(url,user,pass));
 
 
 

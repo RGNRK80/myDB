@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 
 public interface DAOworkServ  {
-    boolean connection(String url, String pass, String log) throws SQLException;
+    boolean connect(String url, String pass, String log) throws SQLException;
 
     Doctor addNewDoc(Doctor doc);
     Doctor setDoc(Doctor doc);
