@@ -55,8 +55,10 @@ preparedStatement.setString(1,email);
         PreparedStatement preparedStatement1=connection.prepareStatement(insert);
         preparedStatement1.setString(1,email);
         preparedStatement1.setString(1,"Hog");
+
 // и т д
         preparedStatement1.executeUpdate();
+        preparedStatement1.
 
 }
 }

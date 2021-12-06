@@ -13,4 +13,6 @@ public abstract class User {
     private Role role;
     private Status status;
 
+    public User() {
+    }
 }
