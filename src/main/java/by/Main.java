@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+/*
     public static void main(String[] args) throws SQLException {
 
         // подключение
@@ -60,5 +61,6 @@ preparedStatement.setString(1,email);
         preparedStatement1.executeUpdate();
         preparedStatement1.
 
+}  */
 }
-}
+
